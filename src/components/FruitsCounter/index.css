@@ -1,0 +1,115 @@
+.bg-container {
+  background-color: #ffd569;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counter {
+  color: #ffd569;
+}
+
+@media (max-width: 576px) {
+  .bg-container {
+    padding: 20px;
+    overflow-y: auto;
+  }
+  .fruit-counter {
+    background-color: #ffffff;
+    border-width: 0;
+    border-radius: 6px;
+    color: #000000;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    text-align: center;
+  }
+  .fruit-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fruit-card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .fruit-img {
+    width: 100%;
+    margin-top: 16px;
+  }
+  .button {
+    cursor: pointer;
+    outline: none;
+    height: 30px;
+    width: 75px;
+    background-color: #007bff;
+    color: #ffffff;
+    margin-top: 16px;
+    border-width: 0;
+    border-radius: 6px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 767px) {
+  .bg-container {
+    padding: 40px;
+  }
+  .fruit-counter {
+    background-color: #ffffff;
+    border-width: 0;
+    border-radius: 7px;
+    color: #000000;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+  }
+  .fruit-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .fruit-card {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .heading {
+    font-size: 57px;
+    font-weight: bold;
+  }
+  .fruit-img {
+    width: 100%;
+  }
+  .button {
+    cursor: pointer;
+    outline: none;
+    height: 54px;
+    width: 115px;
+    background-color: #007bff;
+    color: #ffffff;
+    margin-top: 30px;
+    border-width: 0;
+    border-radius: 6px;
+    font-size: 18px;
+  }
+}
